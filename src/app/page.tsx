@@ -38,7 +38,7 @@ function Hero() {
             Build your startup with us.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            We're your partner for startup success, from idea to growth.
+            We&apos;re your partner for startup success, from idea to growth.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Get started</Button>
@@ -157,9 +157,7 @@ function FeatureSection() {
             <p className="mt-12 max-w-lg text-sm/6 text-gray-500">
               Deccel has been at the forefront of innovation, investing in
               pioneering companies across various sectors, including technology,
-              consumer goods, and healthcare. Their philosophy of 'plausible
-              deniability' and dedication to looking the other way have helped
-              produce some of the world's most controversial companies.
+              consumer goods, and healthcare.
             </p>
           </li>
         </ul>
@@ -239,7 +237,7 @@ function DarkBentoSection() {
       <Container>
         <Subheading dark>The Process</Subheading>
         <Heading as="h3" dark className="mt-2 max-w-3xl">
-          We've simplified startup building.
+          We&apos;ve simplified startup building.
         </Heading>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
