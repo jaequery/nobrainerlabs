@@ -50,7 +50,8 @@ const testimonials = [
     img: '/testimonials/dillon-lenora.jpg',
     name: 'Dillon Lenora',
     title: 'Founder, EcoStart',
-    quote: 'The team at Nobrainer Labs are true professionals. Our MVP looks and works beautifully.',
+    quote:
+      'The team at Nobrainer Labs are true professionals. Our MVP looks and works beautifully.',
   },
   {
     img: '/testimonials/harriet-arron.jpg',
@@ -156,11 +157,13 @@ function CallToAction() {
   return (
     <div>
       <p className="max-w-sm text-sm/6 text-gray-600">
-        Ready to turn your idea into a beautiful, functional MVP? Let Nobrainer Labs bring your vision to life.
+        Ready to turn your idea into a beautiful, functional MVP? Let Nobrainer
+        Labs bring your vision to life.
       </p>
       <div className="mt-2">
         <Link
-          href="#"
+          href="https://calendly.com/nobrainerlabs"
+          target="_blank"
           className="inline-flex items-center gap-2 text-sm/6 font-medium text-pink-600"
         >
           Get started

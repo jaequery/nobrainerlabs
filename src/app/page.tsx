@@ -5,7 +5,6 @@ import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
 import { Link } from '@/components/link'
 import { LinkedAvatars } from '@/components/linked-avatars'
-import { LogoCloud } from '@/components/logo-cloud'
 import { LogoTimeline } from '@/components/logo-timeline'
 import { Navbar } from '@/components/navbar'
 import { Testimonials } from '@/components/testimonials'
@@ -25,10 +24,12 @@ function Hero() {
         <Navbar
           banner={
             <Link
-              href="#"
+              href="https://calendly.com/nobrainerlabs"
+              target="_blank"
               className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
             >
-              Oct, 2024 | We helped a B2B SaaS startup raise $500k pre-seed
+              Oct, 2024 | We just helped a B2B SaaS startup raise $500k
+              pre-seed!
               <ChevronRightIcon className="size-4" />
             </Link>
           }
@@ -287,10 +288,10 @@ export default function Home() {
     <div className="overflow-hidden">
       <Hero />
       <main>
-        <Container className="mt-10">
+        {/* <Container className="mt-10">
           <LogoCloud />
-        </Container>
-        <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-32 pb-16">
+        </Container> */}
+        <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-24 pb-16">
           <FeatureSection />
           {/* <BentoSection /> */}
         </div>
