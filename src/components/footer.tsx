@@ -57,7 +57,7 @@ function Sitemap() {
       <div>
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="/company">Company</SitemapLink>
+          <SitemapLink href="/company">Our Mission</SitemapLink>
           <SitemapLink href="/company">Careers</SitemapLink>
         </SitemapLinks>
       </div>
@@ -75,8 +75,8 @@ function Sitemap() {
       <div>
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="#">Terms of service</SitemapLink>
-          <SitemapLink href="#">Privacy policy</SitemapLink>
+          <SitemapLink href="/terms-of-service">Terms of service</SitemapLink>
+          <SitemapLink href="/privacy-policy">Privacy policy</SitemapLink>
         </SitemapLinks>
       </div>
     </>
