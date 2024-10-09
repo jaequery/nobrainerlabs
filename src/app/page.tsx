@@ -42,9 +42,6 @@ function Hero() {
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Get started</Button>
-            <Button variant="secondary" href="/pricing">
-              See pricing
-            </Button>
           </div>
         </div>
       </Container>
@@ -57,11 +54,14 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          Since 2022, we have been turning innovative ideas into high-growth
-          startups.
+          We deliver your MVP in 3 months or less. Or it&apos;s free.
         </Heading>
+        <Lead className="mt-6 max-w-3xl">
+          Our team excels at distilling complex ideas into beautiful and
+          highly-functional MVPs, accelerating your path to market.
+        </Lead>
         <Subheading as="h3" className="mt-24">
-          Portfolio companies
+          Recent Projects
         </Subheading>
         <hr className="mt-6 border-t border-gray-200" />
         <ul
@@ -169,15 +169,7 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      <Heading as="h3" className="mt-2 max-w-3xl">
-        Accelerated development to get you to market quicker.
-      </Heading>
-      <Lead className="mt-6 max-w-3xl">
-        We accelerate your journey to market, launching MVPs in just 3 months—a
-        fraction of the traditional 6-12 month timeline.
-      </Lead>
-
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+      <div className="grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <div className="">
           <Button href="#">Schedule a call</Button>
         </div>
@@ -294,9 +286,9 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
-        <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-32">
+        <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-32 pb-16">
           <FeatureSection />
-          <BentoSection />
+          {/* <BentoSection /> */}
         </div>
         {/* <DarkBentoSection /> */}
       </main>

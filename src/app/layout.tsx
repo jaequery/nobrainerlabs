@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Radiant',
-    default: 'Radiant - Close every deal',
+    template: '%s - Nobrainer Labs',
+    default: 'Nobrainer Labs - MVP / prototype dev shop in Los Angeles',
   },
 }
 
@@ -23,7 +23,7 @@ export default function RootLayout({
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="The Radiant Blog"
+          title="Nobrainer Labs Blog"
           href="/blog/feed.xml"
         />
       </head>
