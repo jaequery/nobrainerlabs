@@ -57,7 +57,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          We ship hand-crafted, highly-functional MVPs.
+          We ship beautiful, full-fledged, and easy to use MVPs.
         </Heading>
         <Lead className="mt-6 max-w-3xl">
           Our team excels at distilling complex ideas into beautiful and
