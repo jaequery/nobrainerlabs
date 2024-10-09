@@ -25,7 +25,7 @@ function Hero() {
         <Navbar
           banner={
             <Link
-              href="/blog/recent-success-story"
+              href="#"
               className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
             >
               Oct, 2024 | We helped a B2B SaaS startup raise $500k pre-seed
@@ -41,7 +41,9 @@ function Hero() {
             We&apos;re your partner for startup success, from idea to growth.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Get started</Button>
+            <Button href="https://calendly.com/nobrainerlabs" target="_blank">
+              Get started
+            </Button>
           </div>
         </div>
       </Container>
