@@ -29,7 +29,7 @@ function Circle({
           },
         },
       }}
-      style={{ '--opacity': opacity } as React.CSSProperties}
+      // style={{ '--opacity': opacity } as React.CSSProperties}
       className={clsx(
         'absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full',
         'bg-[radial-gradient(circle,transparent_25%,color-mix(in_srgb,_theme(colors.blue.500)_var(--opacity),transparent)_100%)]',
@@ -89,7 +89,7 @@ function Logo({
       }}
       alt=""
       src={src}
-      style={{ left, top } as React.CSSProperties}
+      // style={{ left, top } as React.CSSProperties}
       className="absolute size-16 rounded-full bg-white shadow ring-1 ring-black/5"
     />
   )

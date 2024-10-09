@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, type MotionStyle } from 'framer-motion'
 
 function Marker({
   src,
@@ -15,12 +15,8 @@ function Marker({
 }) {
   return (
     <motion.div
-      variants={{
-        idle: { scale: 0, opacity: 0, rotateX: 0, rotate: 0, y: 0 },
-        active: { y: [-20, 0, 4, 0], scale: [0.75, 1], opacity: [0, 1] },
-      }}
       transition={{ duration: 0.25, delay, ease: 'easeOut' }}
-      style={{ '--offset': `${offset}px`, top } as React.CSSProperties}
+      style={{ '--offset': `${offset}px`, top } as MotionStyle}
       className="absolute left-[calc(50%+var(--offset))] size-[38px] drop-shadow-[0_3px_1px_rgba(0,0,0,.15)]"
     >
       <svg fill="none" viewBox="0 0 38 38" className="absolute size-full">
