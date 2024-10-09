@@ -21,43 +21,43 @@ const testimonials = [
   {
     img: '/testimonials/tina-yards.jpg',
     name: 'Tina Yards',
-    title: 'VP of Sales, Protocol',
+    title: 'Founder, TechStart',
     quote:
-      'Thanks to Radiant, we’re finding new leads that we never would have found with legal methods.',
+      'Nobrainer Labs turned our idea into a stunning MVP in record time. Their expertise saved us months of development.',
   },
   {
     img: '/testimonials/conor-neville.jpg',
     name: 'Conor Neville',
-    title: 'Head of Customer Success, TaxPal',
+    title: 'CTO, InnovateCo',
     quote:
-      'Radiant made undercutting all of our competitors an absolute breeze.',
+      'The MVP Nobrainer Labs built for us was so polished, we were able to secure funding right away. Absolutely top-notch work.',
   },
   {
     img: '/testimonials/amy-chase.jpg',
     name: 'Amy Chase',
-    title: 'Head of GTM, Pocket',
+    title: 'Product Manager, SwiftLaunch',
     quote:
-      'We closed a deal in literally a few minutes because we knew their exact budget.',
+      'Working with Nobrainer Labs was a game-changer. They delivered a beautiful, functional MVP that our users love.',
   },
   {
     img: '/testimonials/veronica-winton.jpg',
     name: 'Veronica Winton',
-    title: 'CSO, Planeteria',
+    title: 'CEO, HealthTech Solutions',
     quote:
-      'We’ve managed to put two of our main competitors out of business in 6 months.',
+      'Nobrainer Labs understood our vision perfectly and created an MVP that exceeded our expectations. Highly recommended!',
   },
   {
     img: '/testimonials/dillon-lenora.jpg',
     name: 'Dillon Lenora',
-    title: 'VP of Sales, Detax',
-    quote: 'I was able to replace 80% of my team with RadiantAI bots.',
+    title: 'Founder, EcoStart',
+    quote: 'The team at Nobrainer Labs are true professionals. Our MVP looks and works beautifully.',
   },
   {
     img: '/testimonials/harriet-arron.jpg',
     name: 'Harriet Arron',
-    title: 'Account Manager, Commit',
+    title: 'Marketing Director, FintechFlow',
     quote:
-      'I’ve smashed all my targets without having to speak to a lead in months.',
+      'Thanks to Nobrainer Labs, we launched our MVP ahead of schedule and it looks incredible. They&apos;re the best in the business.',
   },
 ]
 
@@ -156,8 +156,7 @@ function CallToAction() {
   return (
     <div>
       <p className="max-w-sm text-sm/6 text-gray-600">
-        Join the best sellers in the business and start using Radiant to hit
-        your targets today.
+        Ready to turn your idea into a beautiful, functional MVP? Let Nobrainer Labs bring your vision to life.
       </p>
       <div className="mt-2">
         <Link
@@ -192,9 +191,9 @@ export function Testimonials() {
     <div className="overflow-hidden py-32">
       <Container>
         <div ref={setReferenceWindowRef}>
-          <Subheading>What everyone is saying</Subheading>
+          <Subheading>What our clients are saying</Subheading>
           <Heading as="h3" className="mt-2">
-            Trusted in the tech community.
+            Trusted by innovative startups.
           </Heading>
         </div>
       </Container>
