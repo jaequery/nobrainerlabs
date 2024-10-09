@@ -19,7 +19,11 @@ function CallToAction() {
         We are here to help you build your MVP and get to market faster.
       </p>
       <div className="mt-6">
-        <Button className="w-full sm:w-auto" href="#">
+        <Button
+          className="w-full sm:w-auto"
+          href="https://calendly.com/nobrainerlabs"
+          target="_blank"
+        >
           Schedule a call
         </Button>
       </div>

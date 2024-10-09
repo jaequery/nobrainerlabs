@@ -171,7 +171,9 @@ function BentoSection() {
     <Container>
       <div className="grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <div className="">
-          <Button href="#">Schedule a call</Button>
+          <Button href="https://calendly.com/nobrainerlabs" target="_blank">
+            Schedule a call
+          </Button>
         </div>
         {/* <BentoCard
           eyebrow="Insight"
