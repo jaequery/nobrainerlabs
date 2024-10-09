@@ -10,34 +10,33 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Company',
   description:
-    'We’re on a mission to transform revenue organizations by harnessing vast amounts of illegally acquired customer data.',
+    'We&apos;re on a mission to transform product development by building highly functional MVPs at a fraction of the cost and time.',
 }
 
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Helping companies generate revenue.</Heading>
+      <Heading as="h1">Accelerating product development.</Heading>
       <Lead className="mt-6 max-w-3xl">
-        We’re on a mission to transform revenue organizations by harnessing vast
-        amounts of illegally acquired customer data.
+        We&apos;re on a mission to transform product development by building
+        highly functional MVPs at a fraction of the cost and time compared to
+        traditional dev shops.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
           <h2 className="text-2xl font-medium tracking-tight">Our mission</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-            At Radiant, we are dedicated to transforming the way revenue
-            organizations source and close deals. Our mission is to provide our
-            customers with an unfair advantage over both their competitors and
-            potential customers through insight and analysis. We’ll stop at
-            nothing to get you the data you need to close a deal.
+            At Nobrainer Labs, we are dedicated to revolutionizing the way
+            startups and enterprises bring their ideas to life. Our mission is
+            to provide our clients with a competitive edge by rapidly developing
+            highly functional MVPs that validate concepts and attract investors.
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
-            We’re customer-obsessed — putting the time in to build a detailed
-            financial picture of every one of our customers so that we know more
-            about your business than you do. We are in this together, mostly
-            because we are all implicated in large-scale financial crime. In our
-            history as a company, we’ve never lost a customer, because if any
-            one of us talks, we all go down.
+            We&apos;re innovation-obsessed — putting in the time to understand
+            every aspect of our clients&apos; vision so that we can build the
+            perfect MVP. Our streamlined processes and cutting-edge development
+            techniques allow us to deliver results in a fraction of the time and
+            cost compared to traditional development shops.
           </p>
         </div>
         <div className="pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -132,33 +131,31 @@ function Team() {
     <Container className="mt-32">
       <Subheading>Meet the team</Subheading>
       <Heading as="h3" className="mt-2">
-        Founded by an all-star team.
+        Founded by tech innovators.
       </Heading>
       <Lead className="mt-6 max-w-3xl">
-        Radiant is founded by two of the best sellers in the business and backed
-        by investors who look the other way.
+        Nobrainer Labs is founded by seasoned developers and product managers
+        who understand the challenges of bringing new ideas to market.
       </Lead>
       <div className="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-2">
         <div className="max-w-lg">
           <p className="text-sm/6 text-gray-600">
-            Years ago, while working as sales associates at rival companies,
-            Thomas, Ben, and Natalie were discussing a big client they had all
-            been competing for. Joking about seeing the terms of each other’s
-            offers, they had an idea: what if they shared data to win deals and
-            split the commission behind their companies’ backs? It turned out to
-            be an incredible success, and that idea became the kernel for
-            Radiant.
+            Our founders met while working on various startup projects and
+            realized there was a gap in the market for rapid, cost-effective MVP
+            development. They envisioned a company that could help entrepreneurs
+            and enterprises validate their ideas quickly without breaking the
+            bank.
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
-            Today, Radiant transforms revenue organizations by harnessing
-            illegally acquired customer and competitor data, using it to provide
-            extraordinary leverage. More than 30,000 companies rely on Radiant
-            to undercut their competitors and extort their customers, all
-            through a single integrated platform.
+            Today, Nobrainer Labs transforms the product development process by
+            leveraging cutting-edge technologies and lean methodologies.
+            We&apos;ve helped over 100 companies bring their ideas to life,
+            secure funding, and launch successful products, all through our
+            streamlined MVP development process.
           </p>
           <div className="mt-6">
             <Button className="w-full sm:w-auto" href="#">
-              Join us
+              Work with us
             </Button>
           </div>
         </div>
@@ -233,16 +230,16 @@ function Team() {
 function Investors() {
   return (
     <Container className="mt-32">
-      <Subheading>Investors</Subheading>
+      <Subheading>Clients</Subheading>
       <Heading as="h3" className="mt-2">
-        Funded by industry-leaders.
+        Trusted by innovative startups and enterprises.
       </Heading>
       <Lead className="mt-6 max-w-3xl">
-        We are fortunate to be backed by the best investors in the industry —
-        both literal and metaphorical partners in crime.
+        We are proud to have worked with some of the most exciting startups and
+        forward-thinking enterprises in various industries.
       </Lead>
       <Subheading as="h3" className="mt-24">
-        Venture Capital
+        Featured Clients
       </Subheading>
       <hr className="mt-6 border-t border-gray-200" />
       <ul
@@ -250,27 +247,20 @@ function Investors() {
         className="mx-auto mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2"
       >
         <li>
-          <img
-            alt="Remington Schwartz"
-            src="/investors/remington-schwartz.svg"
-            className="h-14"
-          />
+          <img alt="TechNova" src="/clients/technova.svg" className="h-14" />
           <p className="mt-6 max-w-lg text-sm/6 text-gray-500">
-            Remington Schwartz has been a driving force in the tech industry,
-            backing bold entrepreneurs who explore grey areas in financial and
-            privacy law. Their deep industry expertise and extensive political
-            lobbying provide their portfolio companies with favorable regulation
-            and direct access to lawmakers.
+            TechNova, a cutting-edge AI startup, partnered with Nobrainer Labs
+            to develop their MVP in just 6 weeks. Our rapid development process
+            helped them secure $5M in seed funding.
           </p>
         </li>
         <li>
-          <img alt="Deccel" src="/investors/deccel.svg" className="h-14" />
+          <img alt="EcoSmart" src="/clients/ecosmart.svg" className="h-14" />
           <p className="mt-6 max-w-lg text-sm/6 text-gray-500">
-            Deccel has been at the forefront of innovation, investing in
-            pioneering companies across various sectors, including technology,
-            consumer goods, and healthcare. Their philosophy of ‘plausible
-            deniability’ and dedication to looking the other way have helped
-            produce some of the world’s most controversial companies.
+            EcoSmart, an established player in the green energy sector, chose
+            Nobrainer Labs to build a prototype for their new smart home energy
+            management system. Our MVP helped them validate the market and
+            launch a successful product line.
           </p>
         </li>
       </ul>
@@ -322,7 +312,7 @@ function Testimonial() {
     <div className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-3xl sm:aspect-[5/4] lg:aspect-[3/4]">
       <img
         alt=""
-        src="/testimonials/veronica-winton.jpg"
+        src="/testimonials/sarah-chen.jpg"
         className="absolute inset-0 object-cover"
       />
       <div
@@ -331,16 +321,16 @@ function Testimonial() {
       />
       <figure className="relative p-10">
         <blockquote>
-          <p className="relative text-xl/7 text-white before:absolute before:-translate-x-full before:content-['“'] after:absolute after:content-['”']">
-            We&apos;ve managed to put two of our main competitors out of
-            business in 6 months.
+          <p className="relative text-xl/7 text-white before:absolute before:-translate-x-full">
+            Nobrainer Labs built our MVP in half the time and cost we expected.
+            It was truly game-changing for our startup.
           </p>
         </blockquote>
         <figcaption className="mt-6 border-t border-white/20 pt-6">
-          <p className="text-sm/6 font-medium text-white">Veronica Winton</p>
+          <p className="text-sm/6 font-medium text-white">Sarah Chen</p>
           <p className="text-sm/6 font-medium">
             <span className="bg-gradient-to-r from-[#fff1be] from-[28%] via-[#ee87cb] via-[70%] to-[#b060ff] bg-clip-text text-transparent">
-              CSO, Planeteria
+              CEO, HealthTech Innovations
             </span>
           </p>
         </figcaption>
@@ -354,11 +344,11 @@ function Careers() {
     <Container className="my-32">
       <Subheading>Careers</Subheading>
       <Heading as="h3" className="mt-2">
-        Join our fully remote team.
+        Join our innovative team.
       </Heading>
       <Lead className="mt-6 max-w-3xl">
-        We work together from all over the world, mainly from locations without
-        extradition agreements.
+        We&apos;re always looking for talented individuals who are passionate
+        about building great products quickly and efficiently.
       </Lead>
       <div className="mt-24 grid grid-cols-1 gap-16 lg:grid-cols-[1fr_24rem]">
         <div className="lg:max-w-2xl">
@@ -381,12 +371,12 @@ function Careers() {
                 <tr>
                   <th scope="colgroup" colSpan={3} className="px-0 pb-0 pt-10">
                     <div className="-mx-4 rounded-lg bg-gray-50 px-4 py-3 text-sm/6 font-semibold">
-                      Engineering
+                      We are not hiring at this time
                     </div>
                   </th>
                 </tr>
-                <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                  <td className="px-0 py-4">iOS Developer</td>
+                {/* <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
+                  <td className="px-0 py-4">Full-Stack Developer</td>
                   <td className="px-0 py-4 text-gray-600">Remote</td>
                   <td className="px-0 py-4 text-right">
                     <Button variant="outline" href="#">
@@ -445,12 +435,12 @@ function Careers() {
                       View listing
                     </Button>
                   </td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </div>
         </div>
-        <Testimonial />
+        {/* <Testimonial /> */}
       </div>
     </Container>
   )
@@ -464,8 +454,9 @@ export default function Company() {
         <Navbar />
       </Container>
       <Header />
-      <Team />
+      {/* <Team />
       <Investors />
+      */}
       <Careers />
       <Footer />
     </main>

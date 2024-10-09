@@ -54,7 +54,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          We deliver your MVP in 3 months or less. Or it&apos;s free.
+          We ship hand-crafted, highly-functional MVPs.
         </Heading>
         <Lead className="mt-6 max-w-3xl">
           Our team excels at distilling complex ideas into beautiful and
