@@ -53,27 +53,23 @@ function SitemapLink(props: React.ComponentPropsWithoutRef<typeof Link>) {
 function Sitemap() {
   return (
     <>
-      <div>
-        <SitemapHeading>Product</SitemapHeading>
-        <SitemapLinks>
-          <SitemapLink href="/pricing">Pricing</SitemapLink>
-          <SitemapLink href="#">Analysis</SitemapLink>
-          <SitemapLink href="#">API</SitemapLink>
-        </SitemapLinks>
-      </div>
+      <div></div>
       <div>
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="#">Careers</SitemapLink>
-          <SitemapLink href="/blog">Blog</SitemapLink>
           <SitemapLink href="/company">Company</SitemapLink>
+          <SitemapLink href="/company">Careers</SitemapLink>
         </SitemapLinks>
       </div>
       <div>
         <SitemapHeading>Support</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="#">Help center</SitemapLink>
-          <SitemapLink href="#">Community</SitemapLink>
+          <SitemapLink
+            href="https://calendly.com/nobrainerlabs"
+            target="_blank"
+          >
+            Contact Us
+          </SitemapLink>
         </SitemapLinks>
       </div>
       <div>
@@ -118,16 +114,16 @@ function SocialIconLinkedIn(props: React.ComponentPropsWithoutRef<'svg'>) {
 function SocialLinks() {
   return (
     <>
-      <Link
+      {/* <Link
         href="https://facebook.com"
         target="_blank"
         aria-label="Visit us on Facebook"
         className="text-gray-950 data-[hover]:text-gray-950/75"
       >
         <SocialIconFacebook className="size-4" />
-      </Link>
+      </Link> */}
       <Link
-        href="https://x.com"
+        href="https://x.com/jaequery"
         target="_blank"
         aria-label="Visit us on X"
         className="text-gray-950 data-[hover]:text-gray-950/75"
@@ -135,7 +131,7 @@ function SocialLinks() {
         <SocialIconX className="size-4" />
       </Link>
       <Link
-        href="https://linkedin.com"
+        href="https://linkedin.com/jaequery"
         target="_blank"
         aria-label="Visit us on LinkedIn"
         className="text-gray-950 data-[hover]:text-gray-950/75"
@@ -149,7 +145,7 @@ function SocialLinks() {
 function Copyright() {
   return (
     <div className="text-sm/6 text-gray-950">
-      &copy; {new Date().getFullYear()} Radiant Inc.
+      &copy; {new Date().getFullYear()} Nobrainer Labs, LLC
     </div>
   )
 }
