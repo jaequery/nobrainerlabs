@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Accelerating product development.</Heading>
+      <Heading as="h1">Revolutionizing MVP Development</Heading>
       <Lead className="mt-6 max-w-3xl">
         We&apos;re on a mission to transform product development by building
         highly functional MVPs at a fraction of the cost and time compared to
