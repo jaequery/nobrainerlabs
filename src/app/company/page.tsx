@@ -78,25 +78,25 @@ function Header() {
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
               <dt className="text-sm/6 text-gray-600">Raised</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                $<AnimatedNumber start={100} end={150} />M
+                $<AnimatedNumber start={10} end={15} />M
               </dd>
             </div>
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-              <dt className="text-sm/6 text-gray-600">Companies</dt>
+              <dt className="text-sm/6 text-gray-600">MVPs built</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={15} end={30} />K
+                <AnimatedNumber start={15} end={3} />+
               </dd>
             </div>
             <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
-              <dt className="text-sm/6 text-gray-600">Deals Closed</dt>
+              <dt className="text-sm/6 text-gray-600">Prototypes</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={0.9} end={1.5} decimals={1} />M
+                <AnimatedNumber start={0} end={2} decimals={0} />
               </dd>
             </div>
             <div className="flex flex-col gap-y-2">
-              <dt className="text-sm/6 text-gray-600">Leads Generated</dt>
+              <dt className="text-sm/6 text-gray-600">Exited</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={150} end={200} />M
+                <AnimatedNumber start={0} end={1} />
               </dd>
             </div>
           </dl>
